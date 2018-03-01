@@ -1,60 +1,152 @@
 <!DOCTYPE html>
 <html>
-  <head>
-	  <title>Just eat</title> 
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
-	  <link rel="stylesheet" href="https://github.com/Hermyo/Projet-1-WildSchool/blob/master/css/style.css" />
-  </head>
-  <body>
-    <nav>
-        <a href="#">JUST EAT</a>
-        <a href="#">Se connecter</a>
-        <a href="#">S'inscrire</a>
-        <a href="#">Besoin d'aide ?</a>
+
+<head>
+  <title>Just eat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="nav1">
+      <a href="#" class=" offset-1 col-1">JUST EAT</a>
+      <a href="#" class="offset-5 col-1">Se connecter</a>
+      <a href "#" class="col-1">S'inscrire</a>
+      <a href="#" class="col-1">Besoin d'aide ?</a>
+      <button class="col-1">0,00&euro;</button>
     </nav>
-
-    <section id="offressemaine">
-      <div><img src="https://www.just-eat.fr/uploads/mea/23950_360.jpg?t=1514299763"/></div>
-      <div><img src="https://www.just-eat.fr/uploads/mea/24446_360.jpg?t=1514905407"/></div>
-      <div><img src="https://www.just-eat.fr/uploads/mea/22185_360.jpg?t=1516627960"/></div>
-    </section>
-    <button>Voir plus de restaurants</button>
-
-    <section id="livraison">
-      <h2>Nous livrons dans plus de 2.000 villes</h2>
-      <div id="partiehaute">
-        <div><img src="https://www.just-eat.fr/uploads/cities/Paris.png"/></div>
-        <div><img src="https://www.just-eat.fr/uploads/cities/Marseille.png"/></div>
-        <div><img src="https://www.just-eat.fr/uploads/cities/Lyon.png"/></div>
-      </div>
-      
-      <div id="partiebasse">
-        <div><img src="https://www.just-eat.fr/uploads/cities/Toulouse.png"/></div>
-        <div><img src="https://www.just-eat.fr/uploads/cities/Bordeaux.png"/></div>
-        <div><img src="https://www.just-eat.fr/uploads/cities/Strasbourg.png"/></div>
-      </div>
-    </section>
-
-    <section id="telechargerapp">
+    <header class="row">
       <div>
-        <img src="#"/>
+        <svg version="1.1" viewBox="0 0 1440 335">
+          <g>
+            <polygon fill="#FA0029" points="0.2,218.7 503.7,174.6 0.2,0"></polygon>
+            <polygon fill="#FF5959" points="0.2,207.7 0.2,275.2 503.7,174.6"></polygon>
+            <polygon fill="#FF9E16" points="503.7,174.6 1440,259.9 1440,88"></polygon>
+            <polygon fill="#FFD700" points="503.7,174.6 1440,88 1440,22.3"></polygon>
+            <polygon fill="#95D600" points="0.2,320.1 0.2,333.5 218,333.5 503.7,174.6"></polygon>
+            <polygon fill="#00AC41" points="0.2,271.2 0.2,320.1 503.7,174.6"></polygon>
+            <polygon fill="#7DCAEC" points="968.4,333.5 1377,333.5 503.7,174.6"></polygon>
+            <polygon fill="#2F7DE1" points="439.5,333.5 762.9,333.5 503.7,174.6"></polygon>
+            <polygon fill="#E2E71F" points="184.8,333.5 148.8,333.5 439.5,333.5 503.7,174.6"></polygon>
+            <polygon fill="#2BACE4" points="762.9,333.5 968.4,333.5 503.7,174.6"></polygon>
+            <polygon fill="#FF5000" points="1377,333.5 1440,333.5 1440,252.9 503.7,174.6"></polygon>
+          </g>
+        </svg>
       </div>
+      <form class="geoNav">
+        <div>
+          <h1 class="title1">C'est bon de commander</h1>
+          <p class="description1">Faites-vous livrer les meilleurs restos près de chez vous avec Just Eat</p>
+          <input class="geoElement" type="text" />
+          <button class="geoElement">Je commande</button>
+        </div>
+      </form>
+    </header>
+  </div>
 
-      <p>Téléchargez L'APP pour se faire livrer <a><img src="#"/></a> <a><img src="#"/></a></p>
+  <section class="container hide">
+    <h3>Pourquoi commander sur just eat ?</h3>
+    <div class="row">
+      <div class="col-6 col-sm-4 fig">
+        <img src="https://github.com/Hermyo/Projet-1-WildSchool/blob/body/icon1.svg" class="ico" />
+        <p class="capt">Des offres et des réductions exclusives</p>
+      </div>
+      <div class="col-6 col-sm-4 fig">
+        <img src="https://github.com/Hermyo/Projet-1-WildSchool/blob/body/icon2.svg" class="ico" />
+        <p class="capt">Garantie prix Identiques</p>
+      </div>
+      <div class="col-6 col-sm-4 fig">
+        <img src="https://github.com/Hermyo/Projet-1-WildSchool/blob/body/icon3.svg" class="ico" />
+        <p class="capt">Des millions de notes et commentaires des clients</p>
+      </div>
+      <div class="col-6 col-sm-4 fig">
+        <img src="https://github.com/Hermyo/Projet-1-WildSchool/blob/body/icon4.svg" class="ico" />
+        <p class="capt">Plus de 5000 restaurants et 50 spécialités</p>
+      </div>
+      <div class="col-6 col-sm-4 fig">
+        <img src="https://github.com/Hermyo/Projet-1-WildSchool/blob/body/icon5.svg" class="ico" />
+        <p class="capt">Un service clients 24h/24 et 7j/7</p>
+      </div>
+      <div class="col-6 col-sm-4 fig">
+        <img src="https://github.com/Hermyo/Projet-1-WildSchool/blob/body/icon6.svg" class="ico" />
+        <p class="capt">Nombreux moyens de paiements - CB, Paypal, espèces, chèque, ticket restaurant</p>
+      </div>
+    </div>
+  </section>
+  <section id="offressemaine">
+    <div>
+      <img src="https://www.just-eat.fr/uploads/mea/23950_360.jpg?t=1514299763" />
+    </div>
+    <div>
+      <img src="https://www.just-eat.fr/uploads/mea/24446_360.jpg?t=1514905407" />
+    </div>
+    <div>
+      <img src="https://www.just-eat.fr/uploads/mea/22185_360.jpg?t=1516627960" />
+    </div>
+  </section>
+  <button>Voir plus de restaurants</button>
 
+  <section id="livraison">
+    <h2>Nous livrons dans plus de 2.000 villes</h2>
+    <div id="partiehaute">
       <div>
-        <img src="#"/>
+        <img src="https://www.just-eat.fr/uploads/cities/Paris.png" />
       </div>
-    </section> 
-    
-    <footer>
-      <div class="container">
-        <div class="row">
-        <p>Sur Just Eat (Just Eat c'est juste le nouveau nom d'Allo Resto), retrouvez les meilleurs restos près de chez vous parmis plus de 5500 restaurants proposant la livraison de repas dans plus de 2000 villes en France, à Paris, Lyon, Toulouse, Bordeaux, Marseille, Nancy, mais aussi à Courbevoie, Levallois, Boulogne, Rennes ou encore Dijon ...
-  Just Eat vous propose plus de 50 variétés de plats en livraison à domicile ou au bureau ou à emporter : japonais, mexicain, végétarien ou encore italien. Allo Resto change de nom mais avec Just Eat, vous continuez de profiter de toutes vos recettes favorites : pizza, tacos, sushi, burger, bobun, kebab. et bien d’autres que vous pouvez commander en ligne. Nous vous invitons à découvrir l’ensemble de nos spécialités culinaires disponibles en livraison près de chez vous.</p>
+      <div>
+        <img src="https://www.just-eat.fr/uploads/cities/Marseille.png" />
+      </div>
+      <div>
+        <img src="https://www.just-eat.fr/uploads/cities/Lyon.png" />
+      </div>
+    </div>
+
+    <div id="partiebasse">
+      <div>
+        <img src="https://www.just-eat.fr/uploads/cities/Toulouse.png" />
+      </div>
+      <div>
+        <img src="https://www.just-eat.fr/uploads/cities/Bordeaux.png" />
+      </div>
+      <div>
+        <img src="https://www.just-eat.fr/uploads/cities/Strasbourg.png" />
+      </div>
+    </div>
+  </section>
+
+  <section id="telechargerapp">
+    <div>
+      <img src="#" />
+    </div>
+
+    <p>Téléchargez L'APP pour se faire livrer
+      <a>
+        <img src="#" />
+      </a>
+      <a>
+        <img src="#" />
+      </a>
+    </p>
+
+    <div>
+      <img src="#" />
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <p>Sur Just Eat (Just Eat c'est juste le nouveau nom d'Allo Resto), retrouvez les meilleurs restos près de chez vous
+          parmis plus de 5500 restaurants proposant la livraison de repas dans plus de 2000 villes en France, à Paris, Lyon,
+          Toulouse, Bordeaux, Marseille, Nancy, mais aussi à Courbevoie, Levallois, Boulogne, Rennes ou encore Dijon ...
+          Just Eat vous propose plus de 50 variétés de plats en livraison à domicile ou au bureau ou à emporter : japonais,
+          mexicain, végétarien ou encore italien. Allo Resto change de nom mais avec Just Eat, vous continuez de profiter
+          de toutes vos recettes favorites : pizza, tacos, sushi, burger, bobun, kebab. et bien d’autres que vous pouvez
+          commander en ligne. Nous vous invitons à découvrir l’ensemble de nos spécialités culinaires disponibles en livraison
+          près de chez vous.</p>
 
         <div id="listes">
           <ul>
@@ -93,15 +185,23 @@
           </ul>
           <ul>
             <h3>
-    Téléchargez L'APP pour se faire livrer</h3>
-            <li><img src="#"/></li>
-            <li><img src="#"/></li>
+              Téléchargez L'APP pour se faire livrer</h3>
+            <li>
+              <img src="#" />
+            </li>
+            <li>
+              <img src="#" />
+            </li>
           </ul>
         </div>
 
-        <button>Vous souhaitez inscrire votre restaurant sur Just Eat ?<a>Cliquez ici pour nous contacter</a></button>
+        <button>Vous souhaitez inscrire votre restaurant sur Just Eat ?
+          <a>Cliquez ici pour nous contacter</a>
+        </button>
 
-        <p>Vous travaillez déjà avec nous ? <a>Retrouvez plusieurs conseils pour booster vos commandes.</a></p>
+        <p>Vous travaillez déjà avec nous ?
+          <a>Retrouvez plusieurs conseils pour booster vos commandes.</a>
+        </p>
 
         <div>Réseaux Sociaux</div>
 
@@ -117,17 +217,21 @@
           </div>
 
           <div>
-            <p>Avez-vous des questions ?<a>
-      Nous sommes là pour vous aider !</a></p> 
+            <p>Avez-vous des questions ?
+              <a>
+                Nous sommes là pour vous aider !</a>
+            </p>
 
-            <p>Pour votre santé, mangez au moins cinq fruits et légumes par jour.<a> www.mangerbouger.fr</a></p>
+            <p>Pour votre santé, mangez au moins cinq fruits et légumes par jour.
+              <a> www.mangerbouger.fr</a>
+            </p>
 
           </div>
 
         </div>
-        </div>
       </div>
-    </footer>
-  </body>
-</html>
+    </div>
+  </footer>
+</body>
 
+</html>
