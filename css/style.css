@@ -1,3 +1,6 @@
+.inscription {
+  display: flex;
+}
 .telechargerapp {
   text-align: center;
 }
