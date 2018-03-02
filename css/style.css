@@ -1,6 +1,44 @@
+.indent {
+  padding: 10px;
+}
+
+.indent p:last-child {
+  font-size: 0.75em;
+}
+
+.descript {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.descript div {
+  position: absolute;
+  height: 19vh;
+  background: #fff;
+  z-index:1;
+  width:60.5vh;
+  bottom: 0;
+  border-radius: 0ch 0ch 1ch 1ch;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+.descript img{
+  position: relative;
+  border: 1px solid #aaa;
+
+  border-radius: 1ch 1ch;
+}
+
+.icon {
+  width: 50px;
+}
+
 .inscription {
   display: flex;
 }
+
 .telechargerapp {
   text-align: center;
 }
