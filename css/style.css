@@ -45,7 +45,7 @@
 
 .descript div {
   position: absolute;
-  height: 19vh;
+  max-height: 40%;
   background: #fff;
   z-index:1;
   width:26.55vw;
