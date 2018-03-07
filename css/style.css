@@ -1,3 +1,14 @@
+.cityimages {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.plusderestau {
+  display: block;
+  margin : auto;
+  margin-top: 20px;
+}
+
 .indent {
   padding: 10px;
 }
