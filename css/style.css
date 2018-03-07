@@ -1,3 +1,16 @@
+.sticky {
+    background: #fff;
+    border-bottom: 3px solid #f00;
+    -webkit-transition: background 0.5s, border-bottom 0.5s;
+    transition: background 0.5s, border-bottom 0.5s;
+}
+
+.noSticky {
+    background: transparent;
+    -webkit-transition: background 0.5s, border-bottom 0.5s;
+    transition: background 0.5s, border-bottom 0.5s;
+}
+
 .cityimages {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -5,8 +18,16 @@
 
 .plusderestau, .plusdevilles, .inscription {
   display: block;
-  margin : auto;
+  position: relative;
+  max-height: 2em;
   margin-top: 20px;
+}
+
+#hidepart1,
+#hidepart2,
+#hidepart3 {
+    visibility: hidden;
+    display: none;
 }
 
 .indent {
@@ -38,7 +59,7 @@
 .descript img{
   position: relative;
   border: 1px solid #aaa;
-
+  max-width: 26.55vw;
   border-radius: 1ch 1ch;
 }
 
@@ -73,7 +94,7 @@ footer ul {
 footer p {
   text-align: center;
 }
-/* --------------------------------------------------------------------------------------------- */
+
 body {
   margin: auto;
 }
@@ -86,7 +107,7 @@ header {
 }
 .nav1 {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 3;
 }
 .geoNav {
@@ -125,8 +146,32 @@ header {
 }
 .nav1 a {
   font-size: 0.75em;
+  margin-right: 1em;
 }
-svg {
+
+.blueLink {
+  color: #00f;
+}
+
+.whiteLink {
+  color: #fff;
+}
+
+.svg1 {
+    margin-top: 10%;
+}
+
+.redFill {
+    fill: #f00;
+    width: 150%;
+}
+
+.whiteFill {
+    fill: #fff;
+    width: 250%;
+}
+
+svg2 {
   z-index: 1;
   position: absolute;
   bottom: 0;
