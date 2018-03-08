@@ -1,3 +1,8 @@
+.help {
+  display: block;
+  text-align: center;
+}
+
 .sticky {
     background: #fff;
     border-bottom: 3px solid #f00;
@@ -16,11 +21,16 @@
   padding-bottom: 10px;
 }
 
-.plusderestau, .plusdevilles, .inscription {
+.plusderestau, .plusdevilles {
   display: block;
   position: relative;
   max-height: 2em;
   margin-top: 20px;
+}
+
+.inscription {
+  display: block;
+  margin : auto;
 }
 
 #hidepart1,
@@ -84,7 +94,7 @@ footer {
 }
 
 footer ul {
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 .country-selector {
