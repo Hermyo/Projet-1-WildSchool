@@ -1,6 +1,6 @@
 .help {
-  display: block;
-  text-align: center;
+    display: block;
+    text-align: center;
 }
 
 .sticky {
@@ -17,20 +17,21 @@
 }
 
 .cityimages {
-  padding-top: 10px;
-  padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.plusderestau, .plusdevilles {
-  display: block;
-  position: relative;
-  max-height: 2em;
-  margin-top: 20px;
+.plusderestau,
+.plusdevilles {
+    display: block;
+    position: relative;
+    max-height: 2em;
+    margin-top: 20px;
 }
 
 .inscription {
-  display: block;
-  margin : auto;
+    display: block;
+    margin: auto;
 }
 
 #hidepart1,
@@ -41,129 +42,137 @@
 }
 
 .indent {
-  padding: 10px;
+    padding: 10px;
 }
 
 .indent p:last-child {
-  font-size: 0.75em;
+    font-size: 0.75em;
 }
 
 .descript {
-  margin-top: 10px;
-  margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .descript div {
-  position: absolute;
-  max-height: 40%;
-  background: #fff;
-  z-index:1;
-  width:26.55vw;
-  bottom: 0;
-  border-radius: 0ch 0ch 1ch 1ch;
-  border-left: 1px solid #aaa;
-  border-right: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;
+    position: absolute;
+    max-height: 40%;
+    background: #fff;
+    z-index: 1;
+    width: 26.55vw;
+    bottom: 0;
+    border-radius: 0ch 0ch 1ch 1ch;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
 }
 
-.descript img{
-  position: relative;
-  border: 1px solid #aaa;
-  max-width: 26.55vw;
-  border-radius: 1ch 1ch;
+.descript img {
+    position: relative;
+    border: 1px solid #aaa;
+    max-width: 26.55vw;
+    border-radius: 1ch 1ch;
 }
 
 .icon {
-  width: 50px;
+    width: 50px;
 }
 
 .inscription {
-  display: flex;
+    display: flex;
 }
 
 .telechargerapp {
-  text-align: center;
+    text-align: center;
 }
 
 footer {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
-.offressemaine, .listes {
-  display: flex;
+.offressemaine,
+.listes {
+    display: flex;
 }
 
 footer ul {
-  list-style-type: none;
-}
-
-.country-selector {
+    list-style-type: none;
 }
 
 footer p {
-  text-align: center;
+    text-align: center;
 }
 
 body {
-  margin: auto;
+    margin: auto;
 }
+
 header {
-  background: url("https://www.just-eat.fr/uploads/static/hero//hero.jpg?1516859130") no-repeat;
-  background-size: 100%;
-  width: 100vw;
-  height: 35em;
-  position: relative;
+    background: url("https://www.just-eat.fr/uploads/static/hero//hero.jpg?1516859130") no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 35em;
+    position: relative;
 }
+
 .nav1 {
-  position: fixed;
-  width: 100vw;
-  z-index: 3;
+    position: fixed;
+    width: 100vw;
+    z-index: 3;
 }
+
 .geoNav {
-  margin: auto;
-  width:50%;
-  bottom: 0;
-  z-index: 2;
+    margin: auto;
+    position: inherit;
+    z-index: 2;
+    border: 1px solid #ddd;
 }
+
 .geoNav div {
-  padding: 0% 5% 2% 5%;
-  background: #fff;
-  text-align: center;
+    padding: 0% 5% 2% 5%;
+    background: #fff;
+    text-align: center;
 }
+
 .geoNav input {
-  width: 58%;
-  height:3em;
+    width: 58%;
+    height: 3em;
 }
+
 .geoNav button {
-  background: #04f;
-  color: #fff;
-  border:none;
-  border-radius:2px;
-  font-weight: bold;
-  height: 3em;
+    background: #04f;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    height: 3em;
 }
+
 .geoElement {
-  display: inline-block;
+    display: inline-block;
 }
+
 .title1 {
-  font-weight: bold;
-  color: #f00;
-  padding-top: 2%;
+    font-weight: bold;
+    color: #f00;
+    padding-top: 2%;
 }
+
 .description1 {
-  font-size: 1em;
+    font-size: 1em;
 }
+
 .nav1 a {
-  font-size: 0.75em;
-  margin-right: 1em;
+    font-size: 0.75em;
+    margin-right: 1em;
 }
 
 .blueLink {
-  color: #00f;
+    color: #00f;
 }
 
 .whiteLink {
-  color: #fff;
+    color: #fff;
 }
 
 .svg1 {
@@ -172,38 +181,117 @@ header {
 
 .redFill {
     fill: #f00;
-    width: 150%;
+    width: 8vw;
 }
 
 .whiteFill {
     fill: #fff;
-    width: 250%;
+    width: 18vw;
 }
 
 .svg2 {
-  z-index: 1;
-  position: absolute;
-  bottom: 0;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
 }
+
 container {
-  margin: auto;
+    margin: auto;
 }
-.fig {
-}
+
 .ico {
-  margin-left:25%;
-  width: 50%;
+    margin-left: 25%;
+    width: 50%;
 }
+
 .capt {
-  text-align: center;
-  width: 90%;
-  font-size: 0.9em;
+    text-align: center;
+    width: 90%;
+    font-size: 0.9em;
 }
-@media only screen and (max-width: 480px) {
-  .hide {
-      display: none;
-  }
-  .title {
-      font-size: 1em;
-  }
+
+.visible {
+    visibility: hidden;
+    display: none;
+    font-size: 5vw;
+    color: #fff;
+}
+
+.shop {
+    background: #33d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+.sugest2 {
+    visibility: hidden;
+    display: none;
+}
+.sugest2 .det {
+  display: inline-block;
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 20vh;
+  text-shadow: 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000, -2px -2px 1px #000, 0px 2px 1px #000, 2px 0px 1px #000, 0px -2px 1px #000, -2px 0px 1px #000;
+}
+
+.det img {
+  box-shadow: 1px 1px 2px 2px #aaa, -1px 1px 2px 2px #aaa, 1px -1px 2px 2px #aaa, -1px -1px 2px 2px #aaa, 0px 1px 2px 2px #aaa, 1px 0px 2px 2px #aaa, 0px -1px 2px 2px #aaa, -1px 0px 2px 2px #aaa;
+}
+
+@media only screen and (max-width: 768px) {
+    .hide {
+        display: none;
+    }
+    .visible {
+        visibility: visible;
+        display: inline-block;
+    }
+    .svg1 {
+        width: 30vw;
+    }
+    .svg2 {
+        margin-top: 28%;
+        bottom: auto;
+    }
+    #connect,
+    #sign,
+    #help {
+        visibility: none;
+        display: none;
+    }
+    .title {
+        font-size: 1em;
+    }
+    .descript {
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .svg2 {
+        margin-top: 28%;
+        bottom: auto;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .svg2 {
+        margin-top: 28%;
+        bottom: auto;
+    }
+    .sugest1 {
+        visibility: hidden;
+        display: none;
+    }
+    .sugest2 {
+        visibility: visible;
+        display: inline-block;
+      width: 100%;
+      background: blue;
+    }
+    .sugest2 > div {
+      margin: auto;
+    }
 }

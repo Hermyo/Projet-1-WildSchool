@@ -11,12 +11,12 @@ function hidePart() {
 
 window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
-var svgFill = document.getElementById("svgFill");
-var link1 = document.getElementById("connect");
-var link2 = document.getElementById("sign");
-var link3 = document.getElementById("help");
-var sticky = navbar.offsetTop;
+let navbar = document.getElementById("navbar");
+let svgFill = document.getElementById("svgFill");
+let link1 = document.getElementById("connect");
+let link2 = document.getElementById("sign");
+let link3 = document.getElementById("help");
+let sticky = navbar.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
@@ -25,6 +25,7 @@ function myFunction() {
     link1.classList.add("blueLink"); link1.classList.remove("whiteLink");
     link2.classList.add("blueLink"); link2.classList.remove("whiteLink");
     link3.classList.add("blueLink"); link3.classList.remove("whiteLink");
+    document.getElementById("icon1").style.color = '#00f';
   }
   if (window.pageYOffset <= 0) {
     navbar.classList.add("noSticky"); navbar.classList.remove("sticky");
@@ -32,5 +33,6 @@ function myFunction() {
     link1.classList.add("whiteLink");link1.classList.remove("blueLink");
     link2.classList.add("whiteLink"); link2.classList.remove("blueLink");
     link3.classList.add("whiteLink"); link3.classList.remove("blueLink");
+    document.getElementById("icon1").style.color = '#fff';    
   }
 }
