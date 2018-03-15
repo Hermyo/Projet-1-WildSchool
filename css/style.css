@@ -353,7 +353,6 @@ header {
         visibility: visible;
         display: inline-block;
       width: 100%;
-      background: blue;
     }
     .sugest2 > div {
       margin: auto;
