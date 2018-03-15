@@ -27,12 +27,14 @@
 }
 
 .cityimages {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  background: turquoise;
+  padding: unset;
+  margin: 20px 0px;
   overflow: hidden;
 }
 
 .villes {
+  width: 100%;
   transition: all .5s;
   transition-property: all;
   transition-duration: 0.5s;
@@ -53,20 +55,28 @@ span {
   font-weight: bold;
 }
 
+.hov:hover {
+  text-decoration: none;
+}
+
 .plusderestau, .plusdevilles {
   display: block;
-  position: relative;
-  max-height: 2em;
+  min-height: 2em;
   margin-top: 20px;
   border-radius: 2px;
-  border: 0 solid #2771cd;
-  border-width: 1px;
-  background-color: #fff;
+  border: 1px solid #2771cd;
+  background: #fff;
   color: #2771cd;
   font-size: 16px;
-  line-height: 22px;
   font-weight: 700;
-  padding: 12px 24px 30px 24px;
+  padding: 12px 24px;
+  line-height: 22px;
+  margin: auto;
+}
+
+.plusderestau:hover, .plusdevilles:hover {
+  color: #238;
+  border: 1px solid #238;
 }
 
 .inscription:hover, .lien:hover {
@@ -141,7 +151,7 @@ h4 {
   display: flex;
 }
 
-.phone {
+.phone1, .phone2 {
   width: 30%;
 }
 
@@ -286,7 +296,6 @@ header {
   display: inline-block;
   font-size: 1.5em;
   color: #fff;
-  margin-bottom: 20vh;
   text-shadow: 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000, -2px -2px 1px #000, 0px 2px 1px #000, 2px 0px 1px #000, 0px -2px 1px #000, -2px 0px 1px #000;
 }
 
@@ -321,10 +330,6 @@ header {
   .descript {
         width: 100vw;
     }
-  .plusderestau, .plusdevilles {
-    text-align: center;
-  margin: 0 0 48px;
-  }
   
 }
 
@@ -352,5 +357,17 @@ header {
     }
     .sugest2 > div {
       margin: auto;
+    }
+    .phone1 {
+      display: none;
+    }
+    .phone2 {
+      margin: auto;
+    }
+    .download_ios {
+      visibility: hidden;
+    }
+    .download_ios img {
+      display: none;
     }
 }
