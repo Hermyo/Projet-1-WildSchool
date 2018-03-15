@@ -364,6 +364,9 @@ header {
     .footscription {
       display: none;
     }
+    .etiquettes a, .payment {
+        font-size: 1em;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -410,5 +413,8 @@ header {
     }
     .listes ul {
         padding: unset;
+    }
+    .etiquettes a, .payment {
+        font-size: 1em;
     }
 }
