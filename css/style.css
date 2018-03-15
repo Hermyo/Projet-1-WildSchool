@@ -17,13 +17,26 @@
 }
 
 .etiquettes a {
-    text-decoration: none;
-    color: gray;
+  text-decoration: none;
+  color: gray;
+  font-size: 36px;
+}
+
+.payment {
+  font-size: 36px;
 }
 
 .etiquettes a:hover {
     text-decoration: none;
     color: gray;
+}
+
+li a {
+  color: gray;
+}
+
+li a:hover {
+  color: rgb(77, 77, 77);
 }
 
 .cityimages {
