@@ -1,6 +1,6 @@
 .help {
-  display: block;
-  text-align: center;
+    display: block;
+    text-align: center;
 }
 
 .sticky {
@@ -17,231 +17,247 @@
 }
 
 .etiquettes a {
-  text-decoration: none;
-  color: gray;
+    text-decoration: none;
+    color: gray;
 }
 
 .etiquettes a:hover {
-  text-decoration: none;
-  color: gray;
+    text-decoration: none;
+    color: gray;
 }
 
 .cityimages {
-  background: turquoise;
-  padding: unset;
-  margin: 20px 0px;
-  overflow: hidden;
+    background: turquoise;
+    padding: unset;
+    margin: 20px 0px;
+    overflow: hidden;
 }
 
 .villes {
-  width: 100%;
-  transition: all .5s;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: initial;
-  transition-delay: initial;
-  position: relative;
+    width: 100%;
+    transition: all .5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+    position: relative;
 }
 
 .villes:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .cityimages span {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  color: white;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000, -1px -1px 1px #000, 0px 1px 1px #000, 1px 0px 1px #000, 0px -1px 1px #000, -1px 0px 1px #000;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000, -1px -1px 1px #000, 0px 1px 1px #000, 1px 0px 1px #000, 0px -1px 1px #000, -1px 0px 1px #000;
 }
 
 .hov:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-.plusderestau, .plusdevilles {
-  display: block;
-  min-height: 2em;
-  margin-top: 20px;
-  border-radius: 2px;
-  border: 1px solid #2771cd;
-  background: #fff;
-  color: #2771cd;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 12px 24px;
-  line-height: 22px;
-  margin: auto;
+.plusderestau,
+.plusdevilles {
+    display: block;
+    min-height: 2em;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: 1px solid #2771cd;
+    background: #fff;
+    color: #2771cd;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 24px;
+    line-height: 22px;
+    margin: auto;
 }
 
-.plusderestau:hover, .plusdevilles:hover {
-  color: #238;
-  border: 1px solid #238;
+.plusderestau:hover,
+.plusdevilles:hover {
+    color: #238;
+    border: 1px solid #238;
 }
 
-.inscription:hover, .lien:hover {
-  text-decoration: none;
-  color: #2771cd;
+.inscription:hover,
+.lien:hover {
+    text-decoration: none;
+    color: #2771cd;
 }
 
 .inscription {
-  display: block;
-  margin : auto;
+    display: block;
+    margin: auto;
 }
 
-#hidepart1, #hidepart2, #hidepart3 {
-  visibility: hidden;
-  display: none;
+#hidepart1,
+#hidepart2,
+#hidepart3 {
+    visibility: hidden;
+    display: none;
 }
 
 .indent {
-  padding: 10px;
+    padding: 10px;
 }
 
 .indent p:last-child {
-  font-size: 0.75em;
+    font-size: 0.75em;
 }
 
 .descript {
-  margin-top: 10px;
-  margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .descript div {
-  position: absolute;
-  max-height: 40%;
-  background: #fff;
-  z-index:1;
-  width:26.55vw;
-  bottom: 0;
-  border-radius: 0ch 0ch 1ch 1ch;
-  border-left: 1px solid #aaa;
-  border-right: 1px solid #aaa;
-  border-bottom: 1px solid #aaa;
+    position: absolute;
+    max-height: 40%;
+    background: #fff;
+    z-index: 1;
+    width: 26.55vw;
+    bottom: 0;
+    border-radius: 0ch 0ch 1ch 1ch;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
 }
 
-.descript img{
-  position: relative;
-  border: 1px solid #aaa;
-  max-width: 26.55vw;
-  border-radius: 1ch 1ch;
+.descript img {
+    position: relative;
+    border: 1px solid #aaa;
+    max-width: 26.55vw;
+    border-radius: 1ch 1ch;
 }
 
 .icon {
-  width: 50px;
+    width: 50px;
 }
 
 .inscription {
-  display: flex;
+    display: flex;
 }
 
 .telechargerapp a {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
 }
 
 h4 {
-  text-align: center;
+    text-align: center;
 }
 
 .telechargerapp {
-  align-items: center;
-  display: flex;
+    align-items: center;
+    display: flex;
 }
 
-.phone1, .phone2 {
-  width: 30%;
+.phone1,
+.phone2 {
+    width: 25%;
 }
 
 footer {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 
-.offressemaine, .listes {
-  display: flex;
+.offressemaine,
+.listes {
+    display: flex;
+}
+
+.listes ul {
+    text-align: center;
+}
+
+.listes ul p {
+    font-size: 1.15em;
+    font-weight: bold;
 }
 
 footer ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 footer p {
-  text-align: center;
+    text-align: center;
 }
 
 body {
-  margin: auto;
+    margin: auto;
 }
 
 header {
-  background: url("https://www.just-eat.fr/uploads/static/hero//hero.jpg?1516859130") no-repeat;
-  background-size: 100%;
-  width: 100vw;
-  height: 35em;
-  position: relative;
+    background: url("https://www.just-eat.fr/uploads/static/hero//hero.jpg?1516859130") no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 35em;
+    position: relative;
 }
 
 .nav1 {
-  position: fixed;
-  width: 100vw;
-  z-index: 3;
+    position: fixed;
+    width: 100vw;
+    z-index: 3;
 }
 
 .geoNav {
-  margin: auto;
-  position: inherit;
-  z-index: 2;
-  border: 1px solid #ddd;
+    margin: auto;
+    position: inherit;
+    z-index: 2;
+    border: 1px solid #ddd;
 }
 
 .geoNav div {
-  padding: 0% 5% 2% 5%;
-  background: #fff;
-  text-align: center;
+    padding: 0% 5% 2% 5%;
+    background: #fff;
+    text-align: center;
 }
 
 .geoNav input {
-  width: 58%;
-  height:3em;
+    width: 58%;
+    height: 3em;
 }
 
 .geoNav button {
-  background: #04f;
-  color: #fff;
-  border:none;
-  border-radius:2px;
-  font-weight: bold;
-  height: 3em;
+    background: #04f;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    height: 3em;
 }
 
 .geoElement {
-  display: inline-block;
+    display: inline-block;
 }
 
 .title1 {
-  font-weight: bold;
-  color: #f00;
-  padding-top: 2%;
+    font-weight: bold;
+    color: #f00;
+    padding-top: 2%;
 }
 
 .description1 {
-  font-size: 1em;
+    font-size: 1em;
 }
 
 .nav1 a {
-  font-size: 0.75em;
-  margin-right: 1em;
+    font-size: 0.75em;
+    margin-right: 1em;
 }
 
 .blueLink {
-  color: #00f;
+    color: #00f;
 }
 
 .whiteLink {
-  color: #fff;
+    color: #fff;
 }
 
 .svg1 {
@@ -259,20 +275,20 @@ header {
 }
 
 .svg2 {
-  z-index: 1;
-  position: absolute;
-  bottom: 0;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
 }
 
 .ico {
-  margin-left:25%;
-  width: 50%;
+    margin-left: 25%;
+    width: 50%;
 }
 
 .capt {
-  text-align: center;
-  width: 90%;
-  font-size: 0.9em;
+    text-align: center;
+    width: 90%;
+    font-size: 0.9em;
 }
 
 .visible {
@@ -293,22 +309,23 @@ header {
     visibility: hidden;
     display: none;
 }
+
 .sugest2 .det {
-  display: inline-block;
-  font-size: 1.5em;
-  color: #fff;
-  text-shadow: 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000, -2px -2px 1px #000, 0px 2px 1px #000, 2px 0px 1px #000, 0px -2px 1px #000, -2px 0px 1px #000;
+    display: inline-block;
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000, -2px -2px 1px #000, 0px 2px 1px #000, 2px 0px 1px #000, 0px -2px 1px #000, -2px 0px 1px #000;
 }
 
 .det img {
-  box-shadow: 0px 0px 2px 2px #fff;
+    box-shadow: 0px 0px 2px 2px #fff;
 }
 
 @media only screen and (max-width: 768px) {
-  .hide {
-      display: none;
-  }
-  .visible {
+    .hide {
+        display: none;
+    }
+    .visible {
         visibility: visible;
         display: inline-block;
     }
@@ -325,19 +342,14 @@ header {
         visibility: none;
         display: none;
     }
-  .title {
-      font-size: 1em;
-  }
-  .descript {
+    .title {
+        font-size: 1em;
+    }
+    .descript {
         width: 100vw;
     }
-  
-}
-
-@media only screen and (max-width: 768px) {
-    .svg2 {
-        margin-top: 28%;
-        bottom: auto;
+    .footscription {
+      display: none;
     }
 }
 
@@ -353,21 +365,37 @@ header {
     .sugest2 {
         visibility: visible;
         display: inline-block;
-      width: 100%;
+        width: 100%;
     }
-    .sugest2 > div {
-      margin: auto;
+    .sugest2>div {
+        margin: auto;
     }
     .phone1 {
-      display: none;
+        display: none;
     }
     .phone2 {
-      margin: auto;
+        width: 30%;
+    }
+    .telechargerapp {
+        display: block;
+    }
+    .download_android img {
+        margin: auto;
+        width: 75%;
     }
     .download_ios {
-      visibility: hidden;
+        visibility: hidden;
     }
     .download_ios img {
-      display: none;
+        display: none;
+    }
+    .listes {
+        display: block;
+    }
+    .listes ul p {
+        font-size: 1.5em;
+    }
+    .listes ul {
+        padding: unset;
     }
 }
