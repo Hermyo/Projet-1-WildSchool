@@ -222,9 +222,31 @@ header {
 }
 
 /* SECTION 3 (Nous livrons dans plus de 2.000 villes) */
+
 .livraison {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.cityimages {
+    background: turquoise;
+    padding: unset;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+
+.villes {
+    width: 100%;
+    transition: all .5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+    position: relative;
+}
+
+.villes:hover {
+    transform: scale(1.05);
 }
 
 .cityimages span {
@@ -281,7 +303,8 @@ footer {
     margin-top: 30px;
 }
 
-.lien:hover, .lien:hover span {
+.lien:hover,
+.lien:hover span {
     text-decoration: none;
     color: #2771cd;
 }
@@ -296,7 +319,7 @@ footer {
     color: rgb(95, 95, 95);
     width: 40vw;
     padding: 10px 0;
-    line-height:30px;
+    line-height: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -316,27 +339,6 @@ li a {
 
 li a:hover {
     color: rgb(77, 77, 77);
-}
-
-.cityimages {
-    background: turquoise;
-    padding: unset;
-    margin: 20px 0px;
-    overflow: hidden;
-}
-
-.villes {
-    width: 100%;
-    transition: all .5s;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: initial;
-    transition-delay: initial;
-    position: relative;
-}
-
-.villes:hover {
-    transform: scale(1.05);
 }
 
 .offressemaine,
