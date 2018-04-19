@@ -18,25 +18,9 @@
     transition: background 0.5s, border-bottom 0.5s;
 }
 
-.inscription:hover,
-.lien:hover {
-    text-decoration: none;
-    color: #2771cd;
-}
-
-.inscription {
-    display: block;
-    margin: auto;
-}
-
-.inscription {
-    display: flex;
-}
-
 header {
     background: url("https://www.just-eat.fr/uploads/static/hero//hero.jpg?1516859130") no-repeat;
     background-size: 100%;
-    width: 100vw;
     height: 35em;
     position: relative;
 }
@@ -112,7 +96,7 @@ header {
 
 .whiteFill {
     fill: #fff;
-    width: 18vw;
+    width: 14vw;
 }
 
 .svg2 {
@@ -126,6 +110,7 @@ header {
 .plusderestau,
 .plusdevilles {
     display: block;
+    margin: auto;
     min-height: 2em;
     margin-top: 20px;
     border-radius: 2px;
@@ -136,7 +121,6 @@ header {
     font-weight: 700;
     padding: 12px 24px;
     line-height: 22px;
-    margin: auto;
 }
 
 .plusderestau:hover,
@@ -216,6 +200,11 @@ header {
     padding: 5px 10px 5px 10px;
 }
 
+.sugest1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .sugest2 {
     visibility: hidden;
     display: none;
@@ -233,6 +222,10 @@ header {
 }
 
 /* SECTION 3 (Nous livrons dans plus de 2.000 villes) */
+.livraison {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 .cityimages span {
     position: absolute;
@@ -285,6 +278,32 @@ h4 {
 
 footer {
     background-color: #f2f2f2;
+    margin-top: 30px;
+}
+
+.lien:hover, .lien:hover span {
+    text-decoration: none;
+    color: #2771cd;
+}
+
+.lien {
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: rgb(95, 95, 95);
+    width: 40vw;
+    padding: 10px 0;
+    line-height:30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lien span {
+    color: rgb(75, 75, 75);
+    font-weight: bold;
 }
 
 .payment {
