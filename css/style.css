@@ -1,3 +1,5 @@
+/* HEADER */
+
 .help {
     display: block;
     text-align: center;
@@ -16,14 +18,12 @@
     transition: background 0.5s, border-bottom 0.5s;
 }
 
-.etiquettes a {
-  text-decoration: none;
-  color: gray;
-  font-size: 36px;
-}
+/* Section 4 (Téléchargez L'APP pour se faire livrer) */
 
-.payment {
-  font-size: 36px;
+.etiquettes a {
+    text-decoration: none;
+    color: gray;
+    font-size: 36px;
 }
 
 .etiquettes a:hover {
@@ -31,12 +31,18 @@
     color: gray;
 }
 
+/* Footer */
+
+.payment {
+    font-size: 36px;
+}
+
 li a {
-  color: gray;
+    color: gray;
 }
 
 li a:hover {
-  color: rgb(77, 77, 77);
+    color: rgb(77, 77, 77);
 }
 
 .cityimages {
@@ -60,6 +66,8 @@ li a:hover {
     transform: scale(1.05);
 }
 
+/* SECTION 3 (Nous livrons dans plus de 2.000 villes) */
+
 .cityimages span {
     position: absolute;
     bottom: 8px;
@@ -72,6 +80,8 @@ li a:hover {
 .hov:hover {
     text-decoration: none;
 }
+
+/* SECTION 1 (Offre de la semaine) */
 
 .plusderestau,
 .plusdevilles {
@@ -293,6 +303,8 @@ header {
     bottom: 0;
 }
 
+/* SECTION 2 (Pourquoi commander sur just eat ?) */
+
 .ico {
     margin-left: 25%;
     width: 50%;
@@ -334,6 +346,8 @@ header {
     box-shadow: 0px 0px 2px 2px #fff;
 }
 
+/* Media Queries */
+
 @media only screen and (max-width: 768px) {
     .hide {
         display: none;
@@ -362,9 +376,10 @@ header {
         width: 100vw;
     }
     .footscription {
-      display: none;
+        display: none;
     }
-    .etiquettes a, .payment {
+    .etiquettes a,
+    .payment {
         font-size: 1em;
     }
 }
@@ -414,7 +429,8 @@ header {
     .listes ul {
         padding: unset;
     }
-    .etiquettes a, .payment {
+    .etiquettes a,
+    .payment {
         font-size: 1em;
     }
 }
