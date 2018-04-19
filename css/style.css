@@ -18,93 +18,6 @@
     transition: background 0.5s, border-bottom 0.5s;
 }
 
-/* Section 4 (Téléchargez L'APP pour se faire livrer) */
-
-.etiquettes a {
-    text-decoration: none;
-    color: gray;
-    font-size: 36px;
-}
-
-.etiquettes a:hover {
-    text-decoration: none;
-    color: gray;
-}
-
-/* Footer */
-
-.payment {
-    font-size: 36px;
-}
-
-li a {
-    color: gray;
-}
-
-li a:hover {
-    color: rgb(77, 77, 77);
-}
-
-.cityimages {
-    background: turquoise;
-    padding: unset;
-    margin: 20px 0px;
-    overflow: hidden;
-}
-
-.villes {
-    width: 100%;
-    transition: all .5s;
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: initial;
-    transition-delay: initial;
-    position: relative;
-}
-
-.villes:hover {
-    transform: scale(1.05);
-}
-
-/* SECTION 3 (Nous livrons dans plus de 2.000 villes) */
-
-.cityimages span {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    color: white;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000, -1px -1px 1px #000, 0px 1px 1px #000, 1px 0px 1px #000, 0px -1px 1px #000, -1px 0px 1px #000;
-}
-
-.hov:hover {
-    text-decoration: none;
-}
-
-/* SECTION 1 (Offre de la semaine) */
-
-.plusderestau,
-.plusdevilles {
-    display: block;
-    min-height: 2em;
-    margin-top: 20px;
-    border-radius: 2px;
-    border: 1px solid #2771cd;
-    background: #fff;
-    color: #2771cd;
-    font-size: 16px;
-    font-weight: 700;
-    padding: 12px 24px;
-    line-height: 22px;
-    margin: auto;
-}
-
-.plusderestau:hover,
-.plusdevilles:hover {
-    color: #238;
-    border: 1px solid #238;
-}
-
 .inscription:hover,
 .lien:hover {
     text-decoration: none;
@@ -116,103 +29,8 @@ li a:hover {
     margin: auto;
 }
 
-#hidepart1,
-#hidepart2,
-#hidepart3 {
-    visibility: hidden;
-    display: none;
-}
-
-.indent {
-    padding: 10px;
-}
-
-.indent p:last-child {
-    font-size: 0.75em;
-}
-
-.descript {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.descript div {
-    position: absolute;
-    max-height: 40%;
-    background: #fff;
-    z-index: 1;
-    width: 26.55vw;
-    bottom: 0;
-    border-radius: 0ch 0ch 1ch 1ch;
-    border-left: 1px solid #aaa;
-    border-right: 1px solid #aaa;
-    border-bottom: 1px solid #aaa;
-}
-
-.descript img {
-    position: relative;
-    border: 1px solid #aaa;
-    max-width: 26.55vw;
-    border-radius: 1ch 1ch;
-}
-
-.icon {
-    width: 50px;
-}
-
 .inscription {
     display: flex;
-}
-
-.telechargerapp a {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: auto;
-}
-
-h4 {
-    text-align: center;
-}
-
-.telechargerapp {
-    align-items: center;
-    display: flex;
-}
-
-.phone1,
-.phone2 {
-    width: 25%;
-}
-
-footer {
-    background-color: #f2f2f2;
-}
-
-.offressemaine,
-.listes {
-    display: flex;
-}
-
-.listes ul {
-    text-align: center;
-}
-
-.listes ul p {
-    font-size: 1.15em;
-    font-weight: bold;
-}
-
-footer ul {
-    list-style-type: none;
-}
-
-footer p {
-    text-align: center;
-}
-
-body {
-    margin: auto;
 }
 
 header {
@@ -303,6 +121,74 @@ header {
     bottom: 0;
 }
 
+/* SECTION 1 (Offre de la semaine) */
+
+.plusderestau,
+.plusdevilles {
+    display: block;
+    min-height: 2em;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: 1px solid #2771cd;
+    background: #fff;
+    color: #2771cd;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 24px;
+    line-height: 22px;
+    margin: auto;
+}
+
+.plusderestau:hover,
+.plusdevilles:hover {
+    color: #238;
+    border: 1px solid #238;
+}
+
+#hidepart1,
+#hidepart2,
+#hidepart3 {
+    visibility: hidden;
+    display: none;
+}
+
+.indent {
+    padding: 10px;
+}
+
+.indent p:last-child {
+    font-size: 0.75em;
+}
+
+.descript {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.descript div {
+    position: absolute;
+    max-height: 40%;
+    background: #fff;
+    z-index: 1;
+    width: 26.55vw;
+    bottom: 0;
+    border-radius: 0ch 0ch 1ch 1ch;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+.descript img {
+    position: relative;
+    border: 1px solid #aaa;
+    max-width: 26.55vw;
+    border-radius: 1ch 1ch;
+}
+
+.icon {
+    width: 50px;
+}
+
 /* SECTION 2 (Pourquoi commander sur just eat ?) */
 
 .ico {
@@ -344,6 +230,122 @@ header {
 
 .det img {
     box-shadow: 0px 0px 2px 2px #fff;
+}
+
+/* SECTION 3 (Nous livrons dans plus de 2.000 villes) */
+
+.cityimages span {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000, -1px -1px 1px #000, 0px 1px 1px #000, 1px 0px 1px #000, 0px -1px 1px #000, -1px 0px 1px #000;
+}
+
+.hov:hover {
+    text-decoration: none;
+}
+
+/* Section 4 (Téléchargez L'APP pour se faire livrer) */
+
+h4 {
+    text-align: center;
+}
+
+.etiquettes a {
+    text-decoration: none;
+    color: gray;
+    font-size: 36px;
+}
+
+.etiquettes a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.telechargerapp a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.telechargerapp {
+    align-items: center;
+    display: flex;
+}
+
+.phone1,
+.phone2 {
+    width: 25%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #f2f2f2;
+}
+
+.payment {
+    font-size: 36px;
+}
+
+li a {
+    color: gray;
+}
+
+li a:hover {
+    color: rgb(77, 77, 77);
+}
+
+.cityimages {
+    background: turquoise;
+    padding: unset;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+
+.villes {
+    width: 100%;
+    transition: all .5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+    position: relative;
+}
+
+.villes:hover {
+    transform: scale(1.05);
+}
+
+.offressemaine,
+.listes {
+    display: flex;
+}
+
+.listes ul {
+    text-align: center;
+}
+
+.listes ul p {
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* GENERAL */
+
+body {
+    margin: auto;
 }
 
 /* Media Queries */
